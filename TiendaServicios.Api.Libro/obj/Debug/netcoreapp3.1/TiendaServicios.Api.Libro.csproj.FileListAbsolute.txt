@@ -57,3 +57,4 @@ D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netco
 D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.dll
 D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.pdb
 D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.genruntimeconfig.cache
+D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.Libro\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Libro.csprojAssemblyReference.cache

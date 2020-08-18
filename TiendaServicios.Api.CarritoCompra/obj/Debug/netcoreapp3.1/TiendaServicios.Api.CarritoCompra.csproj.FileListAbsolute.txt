@@ -57,3 +57,4 @@ D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.CarritoCompra\obj\Deb
 D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.CarritoCompra\obj\Debug\netcoreapp3.1\TiendaServicios.Api.CarritoCompra.dll
 D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.CarritoCompra\obj\Debug\netcoreapp3.1\TiendaServicios.Api.CarritoCompra.pdb
 D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.CarritoCompra\obj\Debug\netcoreapp3.1\TiendaServicios.Api.CarritoCompra.genruntimeconfig.cache
+D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.CarritoCompra\obj\Debug\netcoreapp3.1\TiendaServicios.Api.CarritoCompra.csprojAssemblyReference.cache

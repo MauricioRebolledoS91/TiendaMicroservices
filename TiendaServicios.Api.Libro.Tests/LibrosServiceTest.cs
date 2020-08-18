@@ -59,39 +59,39 @@ namespace TiendaServicios.Api.Libro.Tests
             return contexto;
         }
 
-        [Fact]//con este decorador, decimos que es un método de tipo testing
-        public async void GetLibroPorId()
-        {
-            var mockContexto = CrearContexto();
+        //[Fact]//con este decorador, decimos que es un método de tipo testing
+        //public async void GetLibroPorId()
+        //{
+        //    var mockContexto = CrearContexto();
 
-            var mapConfig = new MapperConfiguration(cfg =>
-            {
-                cfg.AddProfile(new MappingTest());
-            });
+        //    var mapConfig = new MapperConfiguration(cfg =>
+        //    {
+        //        cfg.AddProfile(new MappingTest());
+        //    });
 
-            var mapper = mapConfig.CreateMapper();
+        //    var mapper = mapConfig.CreateMapper();
 
-            var request = new ConsultaFiltro.LibroUnico();
+        //    var request = new ConsultaFiltro.LibroUnico();
 
-            request.LibroId = Guid.Empty;
+        //    request.LibroId = Guid.Empty;
 
-            var manejador = new ConsultaFiltro.Manejador(mockContexto.Object, mapper);
+        //    var manejador = new ConsultaFiltro.Manejador(mockContexto.Object, mapper);
 
-            var libro = await manejador.Handle(request, new System.Threading.CancellationToken());
+        //    var libro = await manejador.Handle(request, new System.Threading.CancellationToken());
 
-            //esto significa que si al hacer la transacción
-            //y nos devuelva un objeto instanciado correctamente
-            //esto va a dar success o true y va a pasar el test.
-            //pero si devuelve un nulo, no habrá pasado el test
-            Assert.NotNull(libro);
+        //    //esto significa que si al hacer la transacción
+        //    //y nos devuelva un objeto instanciado correctamente
+        //    //esto va a dar success o true y va a pasar el test.
+        //    //pero si devuelve un nulo, no habrá pasado el test
+        //    Assert.NotNull(libro);
 
-            Assert.True(libro.LibreriaMaterialId == Guid.Empty);
-        }
+        //    Assert.True(libro.LibreriaMaterialId == Guid.Empty);
+        //}
 
         [Fact]//con este decorador, decimos que es un método de tipo testing
         public async void GetLibros()
         {
-            System.Diagnostics.Debugger.Launch();
+            //System.Diagnostics.Debugger.Launch();//para poder debuguear el test
             //revisamos qué método dentro de mi microservice libro se está encargando
             //de realizar la consulta de libros en la base de datos???
             //1. Emular a la instancia de entity framework core / ContextoLibreria

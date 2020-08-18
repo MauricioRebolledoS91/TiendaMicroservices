@@ -45,3 +45,4 @@ D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\netco
 D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.csproj.CoreCompileInputs.cache
 D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.MvcApplicationPartsAssemblyInfo.cs
 D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.MvcApplicationPartsAssemblyInfo.cache
+D:\MicroservicesTienda\TiendaServicios\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.csprojAssemblyReference.cache
