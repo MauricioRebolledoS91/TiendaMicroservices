@@ -16,6 +16,7 @@ namespace TiendaServicios.Api.Libro.Tests
 {
     public class LibrosServiceTest
     {
+        //este método es para llenar con data de gemfu
         private IEnumerable<LibreriaMaterial> ObtenerDataPrueba()
         {
             A.Configure<LibreriaMaterial>()
