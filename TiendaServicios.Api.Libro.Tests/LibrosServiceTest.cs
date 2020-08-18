@@ -29,6 +29,7 @@ namespace TiendaServicios.Api.Libro.Tests
             return lista;
         }
 
+        //este método es para crear el contexto de base de datos para los test
         private Mock<ContextoLibreria> CrearContexto()
         {
             var dataPrueba = ObtenerDataPrueba().AsQueryable();
